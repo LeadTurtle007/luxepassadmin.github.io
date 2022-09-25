@@ -122407,21 +122407,23 @@ $1(a){return a},
 $S:14}
 A.lI.prototype={
 bg(a,b){return this.abg(0,b)},
-abg(a,b){var s=0,r=A.t(t.z),q,p=2,o,n=this,m,l,k,j
+abg(a,b){var s=0,r=A.t(t.z),q,p=2,o,n=this,m,l,k,j,i,h
 var $async$bg=A.o(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:k=null
+j=t.N
+i=A.O(["Access-Control_Allow_Origin","*"],j,j)
 p=4
 s=7
-return A.l(A.bjH(A.e2("http://13.233.92.197:8080/"+b,0,null),null),$async$bg)
+return A.l(A.bjH(A.e2("http://13.233.92.197:8080/"+b,0,null),i),$async$bg)
 case 7:m=d
 k=n.a1f(m)
 p=2
 s=6
 break
 case 4:p=3
-j=o
-if(A.at(j) instanceof A.a5W)throw A.c(A.bgX("No Internet connection"))
-else throw j
+h=o
+if(A.at(h) instanceof A.a5W)throw A.c(A.bgX("No Internet connection"))
+else throw h
 s=6
 break
 case 3:s=2
