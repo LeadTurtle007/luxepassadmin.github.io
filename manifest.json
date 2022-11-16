@@ -1,6 +1,6 @@
 {
-    "name": "luxepass_admin",
-    "short_name": "luxepass_admin",
+    "name": "test",
+    "short_name": "test",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
