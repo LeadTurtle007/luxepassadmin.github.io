@@ -31,16 +31,30 @@
 
   <title>test</title>
   <link rel="manifest" href="manifest.json">
-
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '1210587908';
+    var serviceWorkerVersion = '132386967';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=[api key]"></script>
 </head>
 <body>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.9.1/firebase-messaging.js"></script>
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyDVh47R8EHofFZlewnZWpHK0kAx5KzSHr0",
+  authDomain: "luxepass-44e0e.firebaseapp.com",
+  projectId: "luxepass-44e0e",
+  storageBucket: "luxepass-44e0e.appspot.com",
+  messagingSenderId: "287494888668",
+  appId: "1:287494888668:web:c952061803f1ef169b2819"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
@@ -55,5 +69,6 @@
       });
     });
   </script>
+  
 </body>
 </html>
