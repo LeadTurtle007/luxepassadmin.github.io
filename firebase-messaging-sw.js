@@ -7,7 +7,8 @@ const firebaseConfig = {
   projectId: "luxepass-44e0e",
   storageBucket: "luxepass-44e0e.appspot.com",
   messagingSenderId: "287494888668",
-  appId: "1:287494888668:web:c952061803f1ef169b2819"
+  appId: "1:287494888668:web:c952061803f1ef169b2819",
+  measurementId: "G-JX4TY3J68H"
 };
 
 firebase.initializeApp(firebaseConfig);
